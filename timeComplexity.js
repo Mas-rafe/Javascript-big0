@@ -25,3 +25,11 @@ const bigONSquare = (arr) => {
 bigONSquare(['A', 'B', 'C'])
 
 //Big o(login)
+function targetNumber(n){
+    while(n>1){
+        console.log(n);
+        n = Math.floor(n/2)
+        
+    }
+}
+targetNumber(1600)
